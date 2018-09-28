@@ -4,8 +4,8 @@
   "theme_color": "#00bcd4",
   "background_color": "#fafafa",
   "display": "standalone",
-  "scope": "/TiffanysKitchen",
-  "start_url": "/TiffanysKitchen",
+  "scope": "/",
+  "start_url": "/",
   "icons": [
     {
       "src": "assets/icons/icon-72.png",
