@@ -1,0 +1,73 @@
+{
+  "configVersion": 1,
+  "index": "/TiffanysKitchen/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/TiffanysKitchen/index.html",
+        "/TiffanysKitchen/main.c2beb9c400d3bc8f68ae.js",
+        "/TiffanysKitchen/polyfills.f6ae3e8b63939c618130.js",
+        "/TiffanysKitchen/runtime.ec2944dd8b20ec099bf3.js",
+        "/TiffanysKitchen/styles.e50c83e978cbf95539fb.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/TiffanysKitchen/assets/background.jpg",
+        "/TiffanysKitchen/assets/fruits-vegetables_medium.jpg",
+        "/TiffanysKitchen/assets/icons/icon-128x128.png",
+        "/TiffanysKitchen/assets/icons/icon-144x144.png",
+        "/TiffanysKitchen/assets/icons/icon-152x152.png",
+        "/TiffanysKitchen/assets/icons/icon-192x192.png",
+        "/TiffanysKitchen/assets/icons/icon-384x384.png",
+        "/TiffanysKitchen/assets/icons/icon-512x512.png",
+        "/TiffanysKitchen/assets/icons/icon-72x72.png",
+        "/TiffanysKitchen/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/TiffanysKitchen/assets/background.jpg": "98da896de7ab67b3998a1a51cc3f1b519feff1a2",
+    "/TiffanysKitchen/assets/fruits-vegetables_medium.jpg": "58c9c388e4673749cec4a179d75cf8f00ecb1d31",
+    "/TiffanysKitchen/assets/icons/icon-128x128.png": "bfd90ca3a94925cfd5f4f7cc244c336a9e80d840",
+    "/TiffanysKitchen/assets/icons/icon-144x144.png": "8cd431617669adec3e278ef456b489b69d12dcf0",
+    "/TiffanysKitchen/assets/icons/icon-152x152.png": "31a2a296c30fc2a1c75ce8b1910ade70ed6c12d7",
+    "/TiffanysKitchen/assets/icons/icon-192x192.png": "8f02a9e2be405e8c6f921849a6c73bb02a13eb42",
+    "/TiffanysKitchen/assets/icons/icon-384x384.png": "0e7ab4dc5941ead37c0c68351d717e84dd6e7630",
+    "/TiffanysKitchen/assets/icons/icon-512x512.png": "2f008aa83395bef5b2a7f5af76423eab359053b7",
+    "/TiffanysKitchen/assets/icons/icon-72x72.png": "6ae4b02493677f7e0cfd3300659c7da30aed875e",
+    "/TiffanysKitchen/assets/icons/icon-96x96.png": "e1ae7d8a6b4a70dc465973cc9aae6faa9f10fcb7",
+    "/TiffanysKitchen/index.html": "7d5743952ab2ac470ac339e3ec49e8c6994e4935",
+    "/TiffanysKitchen/main.c2beb9c400d3bc8f68ae.js": "5dc4669fdea285202edd11f143530d9df0b29edf",
+    "/TiffanysKitchen/polyfills.f6ae3e8b63939c618130.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
+    "/TiffanysKitchen/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/TiffanysKitchen/styles.e50c83e978cbf95539fb.css": "880774b50c90f0d77d06a9c241c62048b23ef87e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
