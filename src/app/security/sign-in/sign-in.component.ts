@@ -16,7 +16,6 @@ export class SignInComponent implements OnInit {
   @HostBinding('style.display') sd = 'flex';
   @HostBinding('style.flex') sf = '1 1 auto';
 
-  private oauthState: string;
   private oauthFragment: string;
   private oauthToken: GoogleAccessToken;
   errors: any;

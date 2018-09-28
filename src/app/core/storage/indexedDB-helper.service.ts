@@ -1,9 +1,9 @@
 ﻿import { Injectable } from '@angular/core';
 import { Result } from '@app/core/result';
-import { Subject, throwError, Observable } from 'rxjs';
+import { IndexedDBConfigRules } from '@app/core/storage/indexedDB-config-rules';
+import { Observable } from 'rxjs';
 import { IndexedDBConfig } from './indexedDB-config';
 import { StorageConfig } from './storage-config';
-import { IndexedDBConfigRules } from '@app/core/storage/indexedDB-config-rules';
 
 @Injectable({
   providedIn: 'root'
@@ -12,11 +12,6 @@ export class IndexedDBHelper {
   private configRules = new IndexedDBConfigRules();
 
   constructor(private storageConfig: StorageConfig) {
-    // (window as any).indexedDB = window.indexedDB || window['mozIndexedDB'] || window['webkitIndexedDB'] || window['msIndexedDB'];
-    // tslint:disable-next-line:max-line-length
-    // (window as any).IDBTransaction = window['IDBTransaction'] || window['webkitIDBTransaction'] || window['msIDBTransaction'] || { READ_WRITE: 'readwrite' };
-    // (window as any).IDBKeyRange = window['IDBKeyRange'] || window['webkitIDBKeyRange'] || window['msIDBKeyRange'];
-
     if (!window.indexedDB) {
       throw new Error('Your browser doesn\'t support a stable version of IndexedDB.');
     }

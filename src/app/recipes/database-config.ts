@@ -1,4 +1,4 @@
-import { IndexedDBConfig, IndexedDBTable, IndexedDBTableKey, IndexedDBTableIndex } from '@app/core/storage/indexedDB-config';
+import { IndexedDBConfig, IndexedDBTable, IndexedDBTableKey } from '@app/core/storage/indexedDB-config';
 
 export class DatabaseConfig implements IndexedDBConfig {
   dbName = 'slow cooker';
@@ -9,14 +9,8 @@ export class DatabaseConfig implements IndexedDBConfig {
 export class IngredientTable implements IndexedDBTable {
   name = 'ingredient';
   key = new IngredientKey();
-  // indexes = [new IngredientIndex()];
 }
 
 export class IngredientKey implements IndexedDBTableKey {
   path = 'name';
 }
-
-// export class IngredientIndex implements IndexedDBTableIndex {
-//   name = 'ingredient';
-//   unique = false;
-// }

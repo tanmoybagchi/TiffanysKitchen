@@ -1,4 +1,3 @@
-import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Result } from '@app/core/result';
 import { IndexedDBConfig } from '@app/core/storage/indexedDB-config';
@@ -8,7 +7,7 @@ import { DriveFileQuery } from '@app/gapi/drive-file-query.service';
 import { GoogleSpreadsheet } from '@app/gapi/google-spreadsheet';
 import { SheetQuery } from '@app/gapi/sheet-query.service';
 import { RecipesModule } from '@app/recipes/recipes.module';
-import { EMPTY, Observable, from, merge, of, throwError, zip } from 'rxjs';
+import { EMPTY, from, Observable, of, throwError, zip } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { DatabaseConfig } from './database-config';
 import { Ingredient, Recipe } from './models';
@@ -23,7 +22,6 @@ export class SyncDatabaseCommand {
 
   constructor(
     private driveFileQuery: DriveFileQuery,
-    private http: HttpClient,
     private idbHelper: IndexedDBHelper,
     private localStorageService: LocalStorageService,
     private sheetQuery: SheetQuery,
