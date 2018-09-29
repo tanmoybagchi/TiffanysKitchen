@@ -8,10 +8,10 @@
       "updateMode": "prefetch",
       "urls": [
         "/TiffanysKitchen/index.html",
-        "/TiffanysKitchen/main.61128b474d4e00f6706e.js",
+        "/TiffanysKitchen/main.a8802b6c9ba218989f00.js",
         "/TiffanysKitchen/polyfills.f6ae3e8b63939c618130.js",
         "/TiffanysKitchen/runtime.ec2944dd8b20ec099bf3.js",
-        "/TiffanysKitchen/styles.e50c83e978cbf95539fb.css"
+        "/TiffanysKitchen/styles.7273d37cdeb3d5e5c6bb.css"
       ],
       "patterns": []
     },
@@ -92,11 +92,11 @@
     "/TiffanysKitchen/assets/icons/icon-512.png": "974a8207aec6f319e2dcd57c92df95760667c85d",
     "/TiffanysKitchen/great-vibes-latin-400.164ad73d637797a34fa3.woff": "09b76703b4126097f52b8a226fb8823179654e7b",
     "/TiffanysKitchen/great-vibes-latin-400.4c785fd985fcebec6a9b.woff2": "21dd7a05d52a78c86169f4901381e05e839554a9",
-    "/TiffanysKitchen/index.html": "4eef5166decb0d5393c4ca69e94a122fcfa09b91",
-    "/TiffanysKitchen/main.61128b474d4e00f6706e.js": "a201e6176e141174413bdfad14fddf8ea99c4b1c",
+    "/TiffanysKitchen/index.html": "b7ad7bba6b177769e570560a1b19d759081501a5",
+    "/TiffanysKitchen/main.a8802b6c9ba218989f00.js": "7105db8e9bc883b995afcdc600b00669a4f3be0e",
     "/TiffanysKitchen/polyfills.f6ae3e8b63939c618130.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
     "/TiffanysKitchen/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/TiffanysKitchen/styles.e50c83e978cbf95539fb.css": "880774b50c90f0d77d06a9c241c62048b23ef87e"
+    "/TiffanysKitchen/styles.7273d37cdeb3d5e5c6bb.css": "3982783eb1533f04f7115e9f5988b2232bf5c374"
   },
   "navigationUrls": [
     {
