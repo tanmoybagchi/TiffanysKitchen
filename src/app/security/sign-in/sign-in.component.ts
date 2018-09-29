@@ -66,7 +66,7 @@ export class SignInComponent implements OnInit {
     const login_hint = `login_hint=${encodeURIComponent(environment.login_hint)}`;
 
     // tslint:disable-next-line:max-line-length
-    window.location.replace(`${environment.endPoint}?${client_id}&${redirect_uri}&${response_type}&${scope}&${login_hint}&${include_granted_scopes}`);
+    window.location.replace(`${environment.endPoint}?${client_id}&${redirect_uri}&${response_type}&${scope}&${include_granted_scopes}`);
   }
 
   private verifyToken() {
