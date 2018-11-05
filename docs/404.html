@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta charset="utf-8">
@@ -12,12 +11,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="format-detection" content="telephone=no">
   <base href="/TiffanysKitchen/">
+  <!--Frame busting. https://www.owasp.org/index.php/Clickjacking_Defense_Cheat_Sheet#Best-for-now_Legacy_Browser_Frame_Breaking_Script-->
+  <style id="antiClickjack">
+    body {
+      display: none !important;
+    }
+  </style>
+  <script type="text/javascript">
+    if (self === top) {
+      var antiClickjack = document.getElementById("antiClickjack");
+      antiClickjack.parentNode.removeChild(antiClickjack);
+    } else {
+      top.location = self.location;
+    }
+  </script>
+  <!--End Frame busting.-->
   <link rel="manifest" href="manifest.json">
-<link rel="stylesheet" href="styles.7273d37cdeb3d5e5c6bb.css"></head>
-
+<link rel="stylesheet" href="styles.0db79f66f8f0b9bfeddf.css"></head>
 <body class="mat-app-background mat-typography">
-  <app-root></app-root>
-  <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script type="text/javascript" src="runtime.ec2944dd8b20ec099bf3.js"></script><script type="text/javascript" src="polyfills.f6ae3e8b63939c618130.js"></script><script type="text/javascript" src="main.a8802b6c9ba218989f00.js"></script></body>
+  <noscript>
+    <h1>Tiffany's Kitchen</h1>
+    <h4 style="color: red">
+      For full functionality of this site it is necessary to enable JavaScript. Here are the <a href="http://www.enable-javascript.com/">instructions how to enable JavaScript in your web browser</a>.
+    </h4>
+  </noscript>
 
+  <app-root></app-root>
+<script type="text/javascript" src="runtime.ec2944dd8b20ec099bf3.js"></script><script type="text/javascript" src="polyfills.ada13a984941328c4d6e.js"></script><script type="text/javascript" src="main.9fbfc97bb93a3d375eb4.js"></script></body>
 </html>
